@@ -11,8 +11,8 @@ app.get('/', (req, res) => {
 });
 
 // About route
-app.get('/posts/building-an-api', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'posts', 'building-an-api.html'));
+app.get('/posts/blog-post', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'posts', 'blog-post.html'));
 });
 
 const PORT = process.env.PORT || 3000;
